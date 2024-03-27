@@ -4,7 +4,9 @@
   "description": "A simple calculator with TypeScript, Node.js and Inquirer",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "nmj_simple_calculator": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
